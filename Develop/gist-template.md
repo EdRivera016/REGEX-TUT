@@ -1,28 +1,38 @@
-# Title (replace with your title)
+# Understanding Regex: Matching Hexadecimal Colors
 
-Introductory paragraph (replace this with your text)
+In this tutorial, we will break down the regular expression used to match hexadecimal color values. By the end, you will understand how each component of the regex contributes to accurately identifying valid hex color codes.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The regex /^#?([a-f0-9]{6}|[a-f0-9]{3})$/ is designed to validate hexadecimal color codes in both the three-digit and six-digit formats. This pattern ensures that the input starts with an optional #, followed by either three or six hexadecimal digits. Here’s the regex pattern:
+
+`/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
 
 ## Table of Contents
 
-- [Anchors](#anchors)
-- [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
-- [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
-- [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Understanding Regex: Matching Hexadecimal Colors](#understanding-regex-matching-hexadecimal-colors)
+  - [Summary](#summary)
+  - [Table of Contents](#table-of-contents)
+  - [Regex Components](#regex-components)
+    - [Anchors](#anchors)
+    - [Quantifiers](#quantifiers)
+    - [OR Operator](#or-operator)
+    - [Character Classes](#character-classes)
+    - [Flags](#flags)
+    - [Grouping and Capturing](#grouping-and-capturing)
+    - [Bracket Expressions](#bracket-expressions)
+    - [Greedy and Lazy Match](#greedy-and-lazy-match)
+    - [Boundaries](#boundaries)
+    - [Back-references](#back-references)
+    - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+  - [Author](#author)
 
 ## Regex Components
 
 ### Anchors
+Anchors ensure that the regex matches the entire string from start to finish. The `^` symbol marks the beginning of the string, and the `$` symbol marks the end.
+
+`/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
 
 ### Quantifiers
 
