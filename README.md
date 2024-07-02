@@ -71,3 +71,6 @@ This regex does not use look-ahead or look-behind assertions. These constructs a
 
 ## Author
 This tutorial was written by Edwin Rivera. I am a web development student passionate about simplifying complex topics for fellow learners. Check out my other projects on [github/EdRivera016](https://github.com/EdRivera016).
+You can also view this tutorial on [GitHub Gist](https://gist.github.com/EdRivera016/c2e7f0bf4c0f5bebb30f837b802795d4).
+
+<script src="https://gist.github.com/EdRivera016/c2e7f0bf4c0f5bebb30f837b802795d4.js"></script>
